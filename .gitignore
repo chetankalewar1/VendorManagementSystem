@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.env
+*.env.local
+*.sqlite3
+db.sqlite3
+
+# Log files
+*.log
+
+# Generated media files
+media/
+
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local configuration
+.env.local
+
+# Ignore Django generated files
+*.db
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore PyCharm-related folders
+.idea/
+*.iml
+*.iws
+*.ipr
